@@ -1,0 +1,34 @@
+.h-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-inline-start: 7%;
+    margin-inline-end: 5%;
+}
+.h-wrapper{
+    background: black;
+    color: white;
+}
+.h-menu{
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h-menu:hover{
+    cursor: pointer;
+}
+.button{
+    background:rgb(190, 190, 255);
+    color: black;
+    padding: 0.6rem 1.4rem;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 300ms ease-in;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
